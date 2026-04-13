@@ -191,6 +191,7 @@ export interface PnpmSettings {
   httpProxy?: string
   httpsProxy?: string
   noProxy?: string | boolean
+  agent?: string
 }
 
 export interface ProjectManifest extends BaseManifest {
